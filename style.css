@@ -192,7 +192,7 @@ body{
 }
 
 .movie-row::-webkit-scrollbar{
-    background-color: #222;
+    display: none;
 }
 
 .movie-card{
