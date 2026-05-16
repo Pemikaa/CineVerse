@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ----- HEADER ----- -->
+    <header class="header">
+
+        <!-- TOP NAV -->
+        <div class="top-nav">
+
+            <!-- LOGO -->
+            <div class="logo">
+                <i class="fa-solid fa-clapperboard"></i>
+                <h1>CineVerse</h1>
+            </div>
+
+            <!-- CENTER NAV -->
+            <div class="nav-center">
+
+                <div class="nav-item active-nav">
+                    <i class="fa-solid fa-film"></i>
+                    <span>Movies</span>
+                </div>
+
+                <div class="nav-item">
+                    <i class="fa-solid fa-tv"></i>
+                    <span>Series</span>
+                </div>
+
+                <div class="nav-item">
+                    <i class="fa-solid fa-fire"></i>
+                    <span>Trending</span>
+                </div>
+
+            </div>
+
+            <!-- RIGHT NAV -->
+            <div class="nav-right">
+
+                <div class="circle-btn">
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+
+                <div class="menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- SEARCH -->
+        <div class="search-wrapper">
+
+            <div class="search-bar">
+
+                <div class="search-mobile">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <div class="search-mobile-text">
+
+                        <h4>Start your search</h4>
+
+                    </div>
+
+                </div>
+
+                <div class="search-box">
+                    <h4>Genre</h4>
+                    <p>Search genres</p>
+                </div>
+
+                <div class="search-divider"></div>
+
+                <div class="search-box">
+                    <h4>Year</h4>
+                    <p>Add year</p>
+                </div>
+
+                <div class="search-divider"></div>
+
+                <div class="search-box">
+                    <h4>Rating</h4>
+                    <p>Add rating</p>
+                </div>
+
+                <button class="search-btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- ----- ACTION ----- -->
+
+<section class="movie-section">
+
+    <div class="section-header">
+        <h2>
+            Action Movies
+            <span class="arrow-circle">
+                <i class="fa-solid fa-arrow-right"></i>
+            </span>
+        </h2>
+    </div>
+
+    <div class="movie-row">
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/John Wick 4.jpg" alt="John Wick 4">
+                <input type="checkbox" id="heartJohnWick4" class="heart-toggle">
+                <label for="heartJohnWick4" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>John Wick 4</h3>
+            <p>Action • 2023</p>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/Mission Impossible.jpg" alt="Mission: Impossible - Dead Reckoning Part One">
+                <input type="checkbox" id="heartMissionImpossible" class="heart-toggle">
+                <label for="heartMissionImpossible" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>Mission: Impossible - Dead Reckoning Part One</h3>
+            <p>Action • 2023</p>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/Mad Max.jpg" alt="Mad Max: Fury Road">
+                <input type="checkbox" id="heartMadMax" class="heart-toggle">
+                <label for="heartMadMax" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>Mad Max: Fury Road</h3>
+            <p>Action • 2015</p>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/Top Gun.webp" alt="Top Gun: Maverick">
+                <input type="checkbox" id="heartTopGun" class="heart-toggle">
+                <label for="heartTopGun" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>Top Gun: Maverick</h3>
+            <p>Action • 2022</p>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/The Raid.jpg" alt="The Raid">
+                <input type="checkbox" id="heartTheRaid" class="heart-toggle">
+                <label for="heartTheRaid" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>The Raid</h3>
+            <p>Action • 2011</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ----- ROMANCE ----- -->
+
+<section class="movie-section">
+
+    <div class="section-header">
+        <h2>
+            Romance Movies
+            <span class="arrow-circle">
+                <i class="fa-solid fa-arrow-right"></i>
+            </span>
+        </h2>
+    </div>
+
+    <div class="movie-row">
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/La La Land.webp" alt="La La Land">
+                <input type="checkbox" id="heartLaLaLand" class="heart-toggle">
+                <label for="heartLaLaLand" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>La La Land</h3>
+            <p>Romance • 2016</p>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/About Time.jpg" alt="About Time">
+                <input type="checkbox" id="heartAboutTime" class="heart-toggle">
+                <label for="heartAboutTime" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>About Time</h3>
+            <p>Romance • 2013</p>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/Past Lives.jpg" alt="Past Lives">
+                <input type="checkbox" id="heartPastLives" class="heart-toggle">
+                <label for="heartPastLives" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>Past Lives</h3>
+            <p>Romance • 2023</p>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/Titanic.webp" alt="Titanic">
+                <input type="checkbox" id="heartTitanic" class="heart-toggle">
+                <label for="heartTitanic" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>Titanic</h3>
+            <p>Romance • 1997</p>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/10 Things I Hate About You.jpg" alt="10 Things I Hate About You">
+                <input type="checkbox" id="heart10ThingsILoveAboutYou" class="heart-toggle">
+                <label for="heart10ThingsILoveAboutYou" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>10 Things I Hate About You</h3>
+            <p>Romance • 1999</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ----- DRAMA ----- -->
+
+<section class="movie-section">
+
+    <div class="section-header">
+        <h2>
+            Drama Movies
+            <span class="arrow-circle">
+                <i class="fa-solid fa-arrow-right"></i>
+            </span>
+        </h2>
+    </div>
+
+    <div class="movie-row">
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/Whiplash.webp" alt="Whiplash">
+                <input type="checkbox" id="heartWhiplash" class="heart-toggle">
+                <label for="heartWhiplash" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>Whiplash</h3>
+            <p>Drama • 2014</p>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/The Pursuit of Happyness.jpg" alt="The Pursuit of Happyness">
+                <input type="checkbox" id="heartThePursuitOfHappyness" class="heart-toggle">
+                <label for="heartThePursuitOfHappyness" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>The Pursuit of Happyness</h3>
+            <p>Drama • 2006</p>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/Parasite.webp" alt="Parasite">
+                <input type="checkbox" id="heartParasite" class="heart-toggle">
+                <label for="heartParasite" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>Parasite</h3>
+            <p>Drama • 2019</p>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/Manchester by the Sea.webp" alt="Manchester by the Sea">
+                <input type="checkbox" id="heartManchesterByTheSea" class="heart-toggle">
+                <label for="heartManchesterByTheSea" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>Manchester by the Sea</h3>
+            <p>Drama • 2016</p>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/The Green Mile.webp" alt="The Green Mile">
+                <input type="checkbox" id="heartTheGreenMile" class="heart-toggle">
+                <label for="heartTheGreenMile" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>The Green Mile</h3>
+            <p>Drama • 1999</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ----- SCI-FI ----- -->
+
+<section class="movie-section">
+
+    <div class="section-header">
+        <h2>
+            Sci-Fi Movies
+            <span class="arrow-circle">
+                <i class="fa-solid fa-arrow-right"></i>
+            </span>
+        </h2>
+    </div>
+
+    <div class="movie-row">
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <div class="tag">Recommended</div>
+                <img src="images/Project Hail Mary.jpg" alt="Project Hail Mary">
+                <input type="checkbox" id="heartProjectHailMary" class="heart-toggle">
+                <label for="heartProjectHailMary" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>Project Hail Mary</h3>
+            <p>Sci-Fi • 2026</p>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/Interstellar.webp" alt="Interstellar">
+                <input type="checkbox" id="heartInterstellar" class="heart-toggle">
+                <label for="heartInterstellar" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>Interstellar</h3>
+            <p>Sci-Fi • 2014</p>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/Avatar.jpg" alt="Avatar">
+                <input type="checkbox" id="heartAvatar" class="heart-toggle">
+                <label for="heartAvatar" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>Avatar</h3>
+            <p>Sci-Fi • 2009</p>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/Dune.jpg" alt="Dune: Part Two">
+                <input type="checkbox" id="heartDunePartTwo" class="heart-toggle">
+                <label for="heartDunePartTwo" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>Dune: Part Two</h3>
+            <p>Sci-Fi • 2024</p>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/The Matrix.webp" alt="The Matrix">
+                <input type="checkbox" id="heartTheMatrix" class="heart-toggle">
+                <label for="heartTheMatrix" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>The Matrix</h3>
+            <p>Sci-Fi • 1999</p>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/Blade Runner.webp" alt="Blade Runner">
+                <input type="checkbox" id="heartBladeRunner" class="heart-toggle">
+                <label for="heartBladeRunner" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>Blade Runner</h3>
+            <p>Sci-Fi • 1982</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ----- KIDS ----- -->
+
+<section class="movie-section">
+
+    <div class="section-header">
+        <h2>
+            Kids Movies
+            <span class="arrow-circle">
+                <i class="fa-solid fa-arrow-right"></i>
+            </span>
+        </h2>
+    </div>
+
+    <div class="movie-row">
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/Inside Out 2.webp" alt="Inside Out 2">
+                <input type="checkbox" id="heartInsideOut2" class="heart-toggle">
+                <label for="heartInsideOut2" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>Inside Out 2</h3>
+            <p>Kids • 2024</p>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/Zootopia 2.webp" alt="Zootopia 2">
+                <input type="checkbox" id="heartZootopia2" class="heart-toggle">
+                <label for="heartZootopia2" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>Zootopia 2</h3>
+            <p>Kids • 2025</p>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/How to Train Your Dragon.webp" alt="How to Train Your Dragon">
+                <input type="checkbox" id="heartHowToTrainYourDragon" class="heart-toggle">
+                <label for="heartHowToTrainYourDragon" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>How to Train Your Dragon</h3>
+            <p>Kids • 2025</p>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/Toy Story 3.webp" alt="Toy Story 3">
+                <input type="checkbox" id="heartToyStory3" class="heart-toggle">
+                <label for="heartToyStory3" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>Toy Story 3</h3>
+            <p>Kids • 2010</p>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-image">
+                <img src="images/Puss in Boots.webp" alt="Puss in Boots: The Last Wish">
+                <input type="checkbox" id="heartPussInBoots" class="heart-toggle">
+                <label for="heartPussInBoots" class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </label>
+            </div>
+            <h3>Puss in Boots: The Last Wish</h3>
+            <p>Kids • 2022</p>
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- ----- FOOTER ----- -->
+
+<section class="footer-top">
+
+    <h2>Inspiration for future getaways</h2>
+
+    <div class="footer-tabs">
+        <span class="active-tab">Popular</span>
+        <span>Action</span>
+        <span>Romance</span>
+        <span>Drama</span>
+        <span>Sci-Fi</span>
+        <span>Kids</span>
+        <span>Trending</span>
+        <span>Top rated</span>
+    </div>
+
+    <div class="footer-links-grid">
+
+    <div class="footer-link-item">
+        <h4>John Wick 4</h4>
+        <p>Action movies</p>
+    </div>
+
+    <div class="footer-link-item">
+        <h4>Top Gun: Maverick</h4>
+        <p>Action movies</p>
+    </div>
+
+    <div class="footer-link-item">
+        <h4>La La Land</h4>
+        <p>Romance movies</p>
+    </div>
+
+    <div class="footer-link-item">
+        <h4>Past Lives</h4>
+        <p>Romance movies</p>
+    </div>
+
+    <div class="footer-link-item">
+        <h4>Whiplash</h4>
+        <p>Drama movies</p>
+    </div>
+
+    <div class="footer-link-item">
+        <h4>Parasite</h4>
+        <p>Drama movies</p>
+    </div>
+
+    <div class="footer-link-item">
+        <h4>Interstellar</h4>
+        <p>Sci-Fi movies</p>
+    </div>
+
+    <div class="footer-link-item">
+        <h4>Dune: Part Two</h4>
+        <p>Sci-Fi movies</p>
+    </div>
+
+    <div class="footer-link-item">
+        <h4>Inside Out 2</h4>
+        <p>Kids movies</p>
+    </div>
+
+    <div class="footer-link-item">
+        <h4>Zootopia 2</h4>
+        <p>Kids movies</p>
+    </div>
+
+    <div class="footer-link-item">
+        <h4>Project Hail Mary</h4>
+        <p>Trending movies</p>
+    </div>
+
+    <div class="footer-link-item">
+        <h4>Mission: Impossible</h4>
+        <p>Trending movies</p>
+    </div>
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+    <div class="footer-grid">
+
+        <div class="footer-column">
+            <h4>Support</h4>
+            <p>Help Center</p>
+            <p>Anti-discrimination</p>
+            <p>Disability support</p>
+            <p>Cancellation options</p>
+        </div>
+
+        <div class="footer-column">
+            <h4>Hosting</h4>
+            <p>Movie hosting</p>
+            <p>Hosting resources</p>
+            <p>Community forum</p>
+            <p>Hosting responsibly</p>
+        </div>
+
+        <div class="footer-column">
+            <h4>CineVerse</h4>
+            <p>New features</p>
+            <p>Careers</p>
+            <p>Investors</p>
+            <p>Gift cards</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <div>
+            © 2026 CineVerse, Inc. · Privacy · Terms · Your Privacy Choices
+        </div>
+
+        <div class="footer-right">
+
+            <span>
+                <i class="fa-solid fa-globe"></i> English (US)
+            </span>
+
+            <span>฿ THB</span>
+
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+
+    </div>
+
+    <div class="mobile-footer-bottom">
+
+    <div class="footer-right">
+        <div class="footer-settings">
+            <span>
+                <i class="fa-solid fa-globe"></i> English (US)
+            </span>
+            <span>฿ THB</span>
+        </div>
+
+        <div class="footer-social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </div>
+    <div>
+        © 2026 CineVerse, Inc. <br>
+        Privacy · Terms · Your Privacy Choices
+    </div>
+</div>
+</footer>
+
+</body>
+</html>
