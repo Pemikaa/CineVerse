@@ -158,6 +158,9 @@ body{
 }
 
 .section-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 24px;
 }
 
@@ -167,6 +170,25 @@ body{
     gap: 12px;
     font-size: 26px;
     color: white;
+}
+.row-arrows{
+    display: flex;
+    gap: 10px;
+}
+
+.row-arrow{
+    width: 34px;
+    height: 34px;
+    border: none;
+    border-radius: 50%;
+    background: #222;
+    color: white;
+    transition: 0.2s ease;
+}
+
+.row-arrow:hover{
+    background: #333;
+    transform: scale(1.05);
 }
 
 .arrow-circle{
@@ -462,6 +484,10 @@ body{
         display: none;
     }
 
+    .row-arrows{
+        display: none;
+    }
+
     .movie-section{
         padding: 28px 24px;
     }
@@ -602,6 +628,10 @@ body{
         font-weight: 500;
     }
 
+    .row-arrows{
+        display: none;
+    }
+    
     .movie-section{
         padding: 26px 16px;
     }
