@@ -184,6 +184,7 @@ body{
     background: #222;
     color: white;
     transition: 0.2s ease;
+    cursor: pointer;
 }
 
 .row-arrow:hover{
